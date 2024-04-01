@@ -3,8 +3,8 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  gap: 30px;
-  padding-top: 2rem;
+  gap: 20px;
+  padding-top: 1.5rem;
   border-right: 2px solid grey;
   position: sticky;
   top: 0;

@@ -1,0 +1,58 @@
+.task-container {
+  flex: 1;
+  overflow-y: auto;
+  max-height: 100vh;
+  padding-inline: 20px;
+}
+.task-container > h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.task-box {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(25vw, 1fr));
+  gap: 20px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-bottom: 20px;
+}
+.task {
+  width: 25vw;
+  height: 25vh;
+  padding: 1rem;
+  border-radius: 10px;
+  position: relative;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.task::-webkit-scrollbar {
+  display: none;
+}
+.description {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-top: 5px;
+  padding-left: 1px;
+}
+.checkbox {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  height: 17px;
+  width: 17px;
+  cursor: pointer;
+}
+.delete {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  height: 20px;
+  width: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.delete:hover {
+  transform: scale(1.5);
+}

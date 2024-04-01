@@ -1,0 +1,57 @@
+.slidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+  padding-top: 2rem;
+  border-right: 2px solid grey;
+  position: sticky;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100px;
+}
+.plus-img {
+  width: 60px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.plus-img:hover,
+.color-circle:hover {
+  transform: scale(1.2);
+}
+
+.color-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 2px solid grey;
+}
+
+.button {
+  display: block;
+  margin: auto;
+  padding: 1rem 3rem;
+  color: black;
+  border-radius: 10px;
+  font-size: medium;
+  border: 1px solid black;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  box-shadow: 5px 5px 0px 0px black;
+}
+
+.input {
+  background: rgba(123, 123, 123, 0.36);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(9.3px);
+  -webkit-backdrop-filter: blur(9.3px);
+}

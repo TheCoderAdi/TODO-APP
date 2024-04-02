@@ -56,3 +56,7 @@
   backdrop-filter: blur(9.3px);
   -webkit-backdrop-filter: blur(9.3px);
 }
+
+.input::-webkit-scrollbar {
+  display: none;
+}

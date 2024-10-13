@@ -1,13 +1,14 @@
 .task-container {
   flex: 1;
   overflow-y: auto;
-  max-height: 100vh;
-  padding-inline: 20px;
+  min-height: 100vh;
+  padding: 20px;
 }
 .task-container > h1 {
   font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 20px;
+  align-self: flex-start;
 }
 .task-box {
   display: grid;

@@ -28,7 +28,6 @@ const Tasks = ({ id, description, completed, color, onDrop, index }) => {
     setIsDragging(false);
     onDrop(draggedIndex, index);
   };
-  console.log(isDragging);
   return (
     <div
       className="task"
